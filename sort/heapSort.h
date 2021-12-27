@@ -25,6 +25,7 @@ void adjustHeap(vector<int>& arr, int parent, int end) {
             break;
         }
     }
+    arr[parent] = temp;
 }
 
 void heapSort(vector<int>& arr) {
